@@ -11,19 +11,14 @@ Pawel Zamorski, G00364553@gmit.ie
 
 ### INSTALL ###
 
-The java files and class files are contained in the ie.gmit.dip Java package.
+The java files are contained in the ie.gmit.dip Java package.
 
 List of Files:
 	- Runner.java
-	- Runner.class: The Runner class is used for starting the program. It contains the main method.
 	- Menu.java
-	- Menu.class: The Menu class provides a console menu for the User.
 	- Cipher.java
-	- Cipher.class: The Cipher class is used for encrypting and decrypting a text.
 	- Parser.java
-	- Parser.class: The Parser class is used for reading characters from the file or URL and processing them into the required format.
 	- Saver.java
-	- Saver.class: The Saver class is used for saving text to the file.
 	- README.txt: this file
 
 To compile Java files use the following command:
@@ -82,7 +77,7 @@ There is also a menu during the validation process of the keyword (keyQ2 or keyQ
 
 ### EXTRAS ###
 
-The program has the option to set up a random key. The Fisher–Yates shuffle algorithm is used to generate it.
+The program has the option to set up a random key. The Fisherâ€“Yates shuffle algorithm is used to generate it.
 
 The file size is checked to set up a size of the file. It was done in order to speed up a process of parsing a file or URL. The size of array is a half of the file/URL size, that should be enough. However, if during parsing process the size of array is too small, the size (sum of the current array size and the size of array from which the data are taken) is doubled.
 
